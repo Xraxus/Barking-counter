@@ -46,15 +46,30 @@ button {
     min-width: 75px;
     margin: 0 5px 20px 10px;
     border-radius: 25px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+  transform: translateY(-1px);
 }
 
 #increment-btn {
     background: #bbff84aa;
 }
 
-#save-btn {
-    background: #ff6f59aa;
+
+#increment-btn:hover {
+  background: #bbff84bb;
 }
+
+#save-btn {
+  background: #ff6f59aa;
+}
+
+#save-btn:hover{
+  background: #ff6f59bb;
+}
+
 
 #save-el {
     font-size: 21px
